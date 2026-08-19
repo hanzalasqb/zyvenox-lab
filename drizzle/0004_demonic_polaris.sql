@@ -1,0 +1,1 @@
+ALTER TABLE `project_briefs` ADD `client_user_id` int;

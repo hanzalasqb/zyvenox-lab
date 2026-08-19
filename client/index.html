@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1" />
+    <meta name="theme-color" content="#0b0f14" />
+    <meta name="format-detection" content="telephone=no" />
+    <title>Zyvenox Lab | Digital systems, cybersecurity & AI</title>
+    <link rel="icon" type="image/svg+xml" href="/og-image.svg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <script>
+      try {
+        const theme = localStorage.getItem('theme');
+        if (theme === 'light') document.documentElement.classList.remove('dark');
+        else document.documentElement.classList.add('dark');
+      } catch (_) { document.documentElement.classList.add('dark'); }
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+    <script defer src="%VITE_ANALYTICS_ENDPOINT%/umami" data-website-id="%VITE_ANALYTICS_WEBSITE_ID%"></script>
+  </body>
+</html>

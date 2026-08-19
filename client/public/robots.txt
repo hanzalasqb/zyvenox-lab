@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+Disallow: /admin12-45
+Sitemap: https://zyvenoxlab.com/sitemap.xml
